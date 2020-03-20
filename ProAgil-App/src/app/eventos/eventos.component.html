@@ -1,10 +1,13 @@
-<p>
-  eventos works!
-</p>
-
+<hr>
 <div *ngFor="let evento of eventos">
-  Tema: {{evento.Tema}}
+  Evento ID: {{evento.eventoId}}
   <br>
-  Local: {{evento.Local}}
+  Tema: {{evento.tema}}
+  <br>
+  Local: {{evento.local}}
+  <br>
+  Data: {{evento.dataEvento}}
+  <br>
+  Lote: {{evento.lote}}
   <hr>
 </div>
